@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formatador de Data</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <div class="title-container">
+      <h1 class="title">Data do dia</h1>
+    </div>
+    <div class="divider"></div>
+
+    <div class="dropdown-container">
+      <select name="opc-data" id="opc-data">
+        <option value="dd-mm-yyyy">Dia, Mês, Ano</option>
+        <option value="yyyy-mm-dd">Ano, Mês, Dia</option>
+        <option value="dd-mm-yyyy-h-mm"> Dia, Mês, Ano, Horas, Minutos</option>
+      </select>
+      <div class="select-icon"></div>
+    </div>
+    <p id="data-atual"></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
